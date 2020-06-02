@@ -1,29 +1,36 @@
-import React from 'react'
+import React, {Component} from 'react'
+import Project from './ProjectSingle'
 
-function Projects() {
-    return (
-        <div id='projects'>
-            <h1>Projects</h1>
-            <div className='container'>
-                <div className='project'>
-                    <a href='http://www.delve.nyc/' target='_blank' rel="noopener noreferrer">
-                        <h2 className='title'>Delve.NYC</h2>
-                        <img alt='placeholder' src='https://via.placeholder.com/350x150'/>
-                        <p className='description'>A site for your next apartment hunt: Visualizing NYC quality-of-life data to help you pick a neighborhood before picking an apartment</p>
-                    </a>
-                    <h3>Technologies used:</h3>
-                    <div className='skills'>
-                        <ul>Javascript</ul>
-                        <ul>React</ul>
-                        <ul>D3</ul>
-                        <ul>Express</ul>
-                        <ul>Mongodb</ul>
-                        <ul>NYC Open Data api</ul>
-                    </div>
+class Projects extends Component {
+    constructor() {
+        super()
+        this.state = {
+            projects: [{
+                name: 'Delve.NYC',
+                link: 'http://www.delve.nyc/',
+                imgSource: '/Users/petercrosta/Desktop/personal-work/portfolio/images/DelveNYC-logo.jpg',
+                description: 'A site for your next apartment hunt: Visualizing NYC quality-of-life data to help you pick a neighborhood before picking an apartment',
+                technologies: ['Javascript', 'React', 'D3', 'Express', 'Mongodb', 'NYC Open Data api']
+            }]
+        }
+    }
+    render() {
+        return (
+            <div id='projects'>
+                <h1>Projects</h1>
+                <div className='container'>
+                    {this.state.projects.map(project => (
+                        <Project name={project.name}
+                        link={project.link}
+                        imgSource={project.imgSource}
+                        description={project.description}
+                        technologies={project.technologies}
+                        />
+                    ))}
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Projects
