@@ -18,6 +18,9 @@ function EducationExperience() {
                     />
                 ))}
             </div>
+            <div className='experience'>
+                
+            </div>
         </div>
     )
 }
