@@ -1,12 +1,13 @@
 import React from 'react'
 import {Button} from 'reactstrap'
 import emailjs from 'emailjs-com';
+import {templateId, userId} from '../secrets'
 
 class ContactMe extends React.Component {
     constructor() {
         super()
         this.state = {
-            name: 'fake name',
+            name: '',
             email: '',
             subject: '',
             message: ''
@@ -23,13 +24,18 @@ class ContactMe extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault()
-        console.log(this.state)
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', event.target, 'YOUR_USER_ID')
+        emailjs.sendForm('gmail', templateId, event.target, userId)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      this.setState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    })
   }
 
     render() {
@@ -39,7 +45,7 @@ class ContactMe extends React.Component {
                     <label htmlFor="name" >Name</label>
                     <input type="text" onChange={this.handleChange} name="name" value={this.state.name}/>
                     <label htmlFor="email" >Your email</label>
-                    <input type="text" onChange={this.handleChange} name="email" value={this.state.email}/>
+                    <input type="email" onChange={this.handleChange} name="email" value={this.state.email}/>
                     <label htmlFor="subject" >Subject</label>
                     <input type="text" onChange={this.handleChange} name="subject" value={this.state.subject}/>
                     <label htmlFor="message" >Message</label>
@@ -47,6 +53,10 @@ class ContactMe extends React.Component {
                     <Button color="danger" type="submit">Danger, working?</Button>
                     <button type="submit">Send</button>
                 </form>
+                <div>Or email me directly</div>
+                <a href="mailto:pscrosta@gmail.com">
+                    PSCrosta@gmail.com
+                </a>
             </div>
         )
     }
