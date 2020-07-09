@@ -7,8 +7,10 @@ const Projects = () => {
         <div id='projects'>
             <h1>Projects</h1>
             <div className='container'>
-                {projects.map(project => (
-                    <Project name={project.name}
+                {projects.map((project, idx) => (
+                    <Project 
+                    key={idx}
+                    name={project.name}
                     link={project.link}
                     imgSource={project.imgSource}
                     description={project.description}

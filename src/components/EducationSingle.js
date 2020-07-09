@@ -9,8 +9,8 @@ const EducationSingle = (props) => {
         <span className='degree'>{degree},</span> <span className='grad-date'>{gradDate}</span>
         <p className='description'>{description}</p>
         <span>Coursework included </span> <span className='single-technology'>{coursework.map((course, idx) => {
-            return idx === coursework.length - 1 ? (<div className='sigle-course'>{course}</div>) :
-            (<div className='sigle-course'>{course} - </div>)
+            return idx === coursework.length - 1 ? (<div key={idx} className='sigle-course'>{course}</div>) :
+            (<div key={idx} className='sigle-course'>{course} - </div>)
     })}</span>
     </div>
     )

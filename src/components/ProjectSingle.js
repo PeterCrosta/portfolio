@@ -11,8 +11,8 @@ const Project = (props) => {
             </a>
             <h3>Technologies used:</h3>
             <div className='skills'>
-                {technologies.map(tech => (
-                    <ul className='single-technology'>{tech}</ul>
+                {technologies.map((tech, idx) => (
+                    <ul key={idx} className='single-technology'>{tech}</ul>
                 ))}
             </div>
             <a href={githubLink} className='github-link' target='_blank' rel="noopener noreferrer">
