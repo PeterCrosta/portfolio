@@ -9,7 +9,9 @@ const Projects = () => {
             <div className='container'>
                 {projects.map((project, idx) => (
                     <Project 
+                    className='single-project-container'
                     key={idx}
+                    idx={idx}
                     name={project.name}
                     link={project.link}
                     imgSource={project.imgSource}

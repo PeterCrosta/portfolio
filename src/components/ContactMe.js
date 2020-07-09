@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button} from 'reactstrap'
+// import {Button} from 'reactstrap'
 import emailjs from 'emailjs-com';
 import {templateId, userId} from '../secrets'
 
@@ -41,7 +41,7 @@ class ContactMe extends React.Component {
     render() {
         return (
             <div id='contact-me'>
-                <form onSubmit={this.handleSubmit}>
+                <form id="contact-form" onSubmit={this.handleSubmit}>
                     <label htmlFor="name" >Name</label>
                     <input type="text" onChange={this.handleChange} name="name" value={this.state.name}/>
                     <label htmlFor="email" >Your email</label>
@@ -50,7 +50,6 @@ class ContactMe extends React.Component {
                     <input type="text" onChange={this.handleChange} name="subject" value={this.state.subject}/>
                     <label htmlFor="message" >Message</label>
                     <textarea type="text" onChange={this.handleChange} name="message" value={this.state.message}/>
-                    <Button color="danger" type="submit">Danger, working?</Button>
                     <button type="submit">Send</button>
                 </form>
                 <div>Or email me directly</div>
