@@ -17,8 +17,15 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   color: #C8D2D8;
   /* justify-content: space-around; */
   /* vertical-align: top; */
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
+  min-height: 50px;
+  font-size: 1.5em;
+}
+
+.nav-item:hover {
+  font-weight: 700;
+  color: #C8D2D8;
 }
 
 * {
@@ -50,9 +57,13 @@ h1 {
 }
 
 .project {
-  border: thick double #262626;
+  /* border: thick double #262626; */
   display: flex;
   flex-direction: column;
+}
+
+.double-border {
+  border: thick double #262626;
 }
 
 .github-image {

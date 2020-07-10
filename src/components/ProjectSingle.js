@@ -2,8 +2,8 @@ import React from 'react'
 
 const Project = (props) => {
     const {idx, name, link, imgSource, description, technologies, githubLink} = props
-    let leftyClass = 'project left-allign'
-    let rightyClass = 'project right-align'
+    let leftyClass = 'project left-allign double-border'
+    let rightyClass = 'project right-align double-border'
     console.log('key: ',idx)
     return (
         <div className={idx % 2 === 1 ? rightyClass : leftyClass}>
