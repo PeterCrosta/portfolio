@@ -23,6 +23,28 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   font-size: 1.5em;
 }
 
+#about-me{
+  
+  margin-top: 50px;
+
+}
+
+#about-me-container {
+  display: flex;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.head-shot {
+  height: 200px;
+  width: 200px;
+  margin: 7%;
+}
+
 .nav-item:hover {
   font-weight: 700;
   color: #C8D2D8;
