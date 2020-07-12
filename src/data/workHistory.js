@@ -4,7 +4,7 @@ const workHistory = [
         title: "Software Engineering Teaching Fellow",
         dates: ["March 2020", "May 2020"],
         location: "New York, NY",
-        resp: ["Acted as project manager of student projects, leading agile work environment", "Led projects' daily stand-ups, weekly code reviews, helped debug recalcitrant issues, and consulted on applications' designs and implementations", "Conducted 2-4 technical interviews per week for prospective students", ""]
+        resp: ["Acted as project manager of student projects, leading agile work environment", "Led projects' daily stand-ups, weekly code reviews, helped debug recalcitrant issues, and consulted on applications' designs and implementations", "Conducted 2-4 technical interviews per week for prospective students"]
     },
     {
         org: "Columbia Antiepileptic Drug Database",

@@ -7,7 +7,7 @@ import workHistory from '../data/workHistory'
 function EducationExperience() {
     return (
         <div id='education-experience'>
-            <h1>Education and Experience</h1>
+            <h1 className='section-header'>Education</h1>
             <div className='education-container'>
                 {educationHistory.map((school,idx)=> (
                     <EducationSingle 
@@ -21,6 +21,7 @@ function EducationExperience() {
                     />
                 ))}
             </div>
+            <h1 className='section-header'>Experience</h1>
             <div className='experience-container'>
                 {workHistory.map((job, idx) => (
                     <ExperienceSingle

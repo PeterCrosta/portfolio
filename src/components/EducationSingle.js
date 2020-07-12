@@ -3,15 +3,18 @@ import React from 'react'
 const EducationSingle = (props) => {
     const {name, degree, gradDate, description, coursework, image} = props
     return (
-        <div className='single-education'>
-        <img alt='columbia' src={image} className='school-image' />
-        <h3 className='school-name'>{name}</h3>
-        <span className='degree'>{degree},</span> <span className='grad-date'>{gradDate}</span>
-        <p className='description'>{description}</p>
-        <span>Coursework included </span> <span className='single-technology'>{coursework.map((course, idx) => {
-            return idx === coursework.length - 1 ? (<div key={idx} className='sigle-course'>{course}</div>) :
-            (<div key={idx} className='sigle-course'>{course} - </div>)
-    })}</span>
+        <div className='single-education double-border'>
+        <img alt={name} src={image} className='school-image' />
+        <div className='school-container'>
+            <h3 className='school-name title'>{name}</h3>
+            <span className='degree'>{degree},</span> <span className='grad-date'>{gradDate}</span>
+            <p className='description'>{description}</p>
+            <span>Subjects included: </span> <span className='single-technology'>{coursework.map((course, idx) => {
+                return idx === coursework.length - 1 ? (<span key={idx} className='sigle-course'>{course}</span>) :
+                (<span key={idx} className='sigle-course'>{course} - </span>)
+                })}</span>
+
+        </div>
     </div>
     )
 }

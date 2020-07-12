@@ -23,14 +23,26 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   font-size: 1.5em;
 }
 
-#about-me{
-  
+#about-me{ 
   margin-top: 50px;
-
 }
 
 #about-me-container {
   display: flex;
+}
+
+#education-experience {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#projects {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#experience-title {
+  margin-top: 20px;
 }
 
 .about-me-text {
@@ -48,6 +60,20 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 .nav-item:hover {
   font-weight: 700;
   color: #C8D2D8;
+}
+
+.school-image {
+  height: 150px;
+  width: 150px;
+  margin: 50px;
+}
+
+.single-education {
+  display: flex;
+}
+
+.section-header {
+  margin-top: 20px;
 }
 
 * {
@@ -96,6 +122,9 @@ h1 {
 }
 .right-align {
   text-align: right;
+}
+.title {
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 /* 
 
