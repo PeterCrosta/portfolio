@@ -41,6 +41,8 @@ class ContactMe extends React.Component {
     render() {
         return (
             <div id='contact-me'>
+                <h1 className='header title'>Contact Me</h1>
+                <div className='contact-me-container'>
                 <form id="contact-form" onSubmit={this.handleSubmit}>
                     <label htmlFor="name" >Name</label>
                     <input type="text" onChange={this.handleChange} name="name" value={this.state.name}/>
@@ -52,10 +54,13 @@ class ContactMe extends React.Component {
                     <textarea type="text" onChange={this.handleChange} name="message" value={this.state.message}/>
                     <button type="submit">Send</button>
                 </form>
-                <div>Or email me directly</div>
-                <a href="mailto:pscrosta@gmail.com">
-                    PSCrosta@gmail.com
-                </a>
+                <div className='post-contact-text'>
+                    <div>Or email me directly</div>
+                    <a href="mailto:pscrosta@gmail.com">
+                        PSCrosta@gmail.com
+                    </a>
+                    </div>
+                </div>
             </div>
         )
     }
