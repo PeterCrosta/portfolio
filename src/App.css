@@ -163,6 +163,16 @@ h1 {
   text-align: center;
   margin-top: 15px;
 }
+
+textarea {
+  background-color: white;
+}
+input {
+  background-color: white;
+}
+button {
+  background-color: silver;
+}
 /* 
 
 button {
