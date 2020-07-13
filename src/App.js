@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import {Navbar} from './components'
 import Routes from './Routes'
+import {Footer} from './components'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         >
           Learn React
         </a> */}
+        <Footer />
       </header>
     </div>
   );

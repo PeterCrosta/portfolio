@@ -23,6 +23,12 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   font-size: 1.5em;
 }
 
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
 #about-me{ 
   margin-top: 50px;
   margin-left: 10%;
@@ -55,6 +61,12 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 #contact-me {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.footer-image {
+  height: 35px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .contact-me-container {
