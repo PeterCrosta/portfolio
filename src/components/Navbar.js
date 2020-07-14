@@ -6,6 +6,9 @@ import resumePDF from '/Users/petercrosta/Desktop/personal-work/portfolio/src/da
 function Navbar() {
     return (
         <div id='nav-bar'>
+            <div id='banner'>
+                <h1 id='banner-name'>Peter Crosta</h1>
+            </div>
             <nav className='nav-item-container'>
                 <Link className='nav-item' to='/about-me'>About Me</Link>
                 <Link className='nav-item' to='/projects'>Projects</Link>

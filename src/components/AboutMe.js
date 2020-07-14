@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillList from './SkillList'
 
 function AboutMe() {
     return (
@@ -15,6 +16,8 @@ function AboutMe() {
                     </p>
                 </div>
             </div>
+            <h3>Skills</h3>
+            <SkillList/>
         </div>
     )
 }

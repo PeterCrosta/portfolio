@@ -13,6 +13,7 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 
 #nav-bar {
   display: flex;
+  flex-direction: column;
   background-color: #262626;
   color: #C8D2D8;
   /* justify-content: space-around; */
@@ -21,6 +22,14 @@ font-family: 'Montserrat Subrayada', sans-serif; */
   width: 100%;
   min-height: 50px;
   font-size: 1.5em;
+}
+
+#banner-name {
+  background-color: #262626;
+  font-family: 'Montserrat', sans-serif;
+}
+#banner {
+  background-color: #262626;
 }
 
 #footer {
