@@ -4,18 +4,24 @@
 ::after pseudo tag 
 :hover pseudo class */
 
-/* light #C8D2D8
+/* light #F9F7F0
 dark #262626
 accent #3C533B */
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Subrayada', sans-serif; */
 
+/* trial colors
+dark #002B44
+light #F9F7F0
+accent #8D3F5C */
+
+
 #nav-bar {
   display: flex;
   flex-direction: column;
-  background-color: #262626;
-  color: #C8D2D8;
+  background-color: #002B44;
+  color: #F9F7F0;
   /* justify-content: space-around; */
   /* vertical-align: top; */
   align-items: center;
@@ -25,11 +31,11 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 }
 
 #banner-name {
-  background-color: #262626;
+  background-color: #002B44;
   font-family: 'Montserrat', sans-serif;
 }
 #banner {
-  background-color: #262626;
+  background-color: #002B44;
 }
 
 #footer {
@@ -97,7 +103,7 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 
 .nav-item:hover {
   font-weight: 700;
-  color: #C8D2D8;
+  color: #F9F7F0;
 }
 
 .school-image {
@@ -115,18 +121,18 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 }
 
 * {
-  background-color: #C8D2D8;
+  background-color: #F9F7F0;
 }
 .nav-item-container {
   display: flex;
   justify-content: space-around;
   font-family: 'Montserrat', sans-serif;
-  color: #C8D2D8;
-  background-color: #262626;
+  color: #F9F7F0;
+  background-color: #002B44;
 }
 
 .nav-item {
-  color: #C8D2D8;
+  color: #F9F7F0;
   padding: 0px 10px 0px 10px;
 }
 
@@ -134,7 +140,7 @@ h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 .description {
-  color: #262626;
+  color: #002B44;
 }
 
 .title {
@@ -143,13 +149,28 @@ h1 {
 }
 
 .project {
-  /* border: thick double #262626; */
+  /* border: thick double #002B44; */
   display: flex;
   flex-direction: column;
 }
 
 .double-border {
-  border: thick double #262626;
+  border: thick double #8D3F5C;
+}
+
+.single-skill {
+  /* border: 1px solid #8D3F5C; */
+  padding: 2px 5px 2px 5px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: #002B44;
+  color: #F9F7F0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-level {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .github-image {
@@ -204,14 +225,14 @@ button {
 }
 
 .App-header {
-  background-color: #C8D2D8;
+  background-color: #F9F7F0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #262626;
+  color: #002B44;
 }
 
 .App-link {

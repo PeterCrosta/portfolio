@@ -6,9 +6,9 @@ const SkillList = (props) => {
         <div id='skill-list-container'>
             {skills.map((el, idx) => {
                 return (
-                    <div className={el.level} key={idx} >
+                    <div className='skill-level' key={idx} >
                         <span>{el.level}: </span>
-                        {el.skill.map((el2, idx) => <span key={idx}>{el2}</span>)}
+                        {el.skill.map((el2, idx) => <span className='single-skill' key={idx}>{el2}</span>)}
                     </div>
                 )
             })}

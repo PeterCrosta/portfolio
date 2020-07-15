@@ -16,7 +16,7 @@ function AboutMe() {
                     </p>
                 </div>
             </div>
-            <h3>Skills</h3>
+            <h3 className='title' >Skills</h3>
             <SkillList/>
         </div>
     )
