@@ -1,14 +1,12 @@
 import React from 'react'
 
 const Project = (props) => {
-    const {idx, name, link, imgSource, description, technologies, githubLink} = props
-    let leftyClass = 'project left-allign double-border'
-    let rightyClass = 'project right-align double-border'
+    const {name, link, imgSource, description, technologies, githubLink} = props
     return (
-        <div className={idx % 2 === 1 ? rightyClass : leftyClass}>
+        <div className='project double-border'>
             <a href={link} target='_blank' rel="noopener noreferrer">
                 <h2 className='title'>{name}</h2>
-                <img alt='placeholder' src={imgSource}/>
+                <img alt='placeholder' className='project-image' src={imgSource}/>
                 <p className='description'>{description}</p>
             </a>
             <h3>Technologies used:</h3>

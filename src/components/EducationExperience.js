@@ -12,6 +12,7 @@ function EducationExperience() {
                 {educationHistory.map((school,idx)=> (
                     <EducationSingle 
                     key={idx}
+                    idx={idx}
                     name={school.name}
                     degree={school.degree}
                     gradDate={school.gradDate}
@@ -26,6 +27,7 @@ function EducationExperience() {
                 {workHistory.map((job, idx) => (
                     <ExperienceSingle
                     key={idx}
+                    idx={idx}
                     org={job.org}
                     title={job.title}
                     dates={job.dates}

@@ -4,14 +4,15 @@
 ::after pseudo tag 
 :hover pseudo class */
 
-/* light #F9F7F0
+/* original color palate
+light #F9F7F0
 dark #262626
 accent #3C533B */
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Subrayada', sans-serif; */
 
-/* trial colors
+/* color palate
 dark #002B44
 light #F9F7F0
 accent #8D3F5C */
@@ -109,12 +110,32 @@ accent #8D3F5C */
 .school-image {
   height: 150px;
   width: 150px;
-  margin: 50px;
+  margin: 50px 50px 50px 0px;
 }
 
 .single-education {
   display: flex;
 }
+
+.degree-grad-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.degree {
+  font-weight: 700;
+}
+
+.subjects {
+  font-weight: 700;
+}
+/* .subjects-container {
+  margin-right: 10px;
+} */
+
+/* .grad-date {
+  margin-right: 10px;
+} */
 
 .section-header {
   margin-top: 20px;
@@ -140,7 +161,7 @@ h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 .description {
-  color: #002B44;
+  color: #262626;
 }
 
 .title {
@@ -154,8 +175,14 @@ h1 {
   flex-direction: column;
 }
 
+.project-image {
+  height: 200px;
+}
+
 .double-border {
   border: thick double #8D3F5C;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .single-skill {
@@ -181,9 +208,10 @@ h1 {
 .left-align {
 }
 
-.right-align {
+/* .right-align {
   text-align: right;
-}
+  list-style-position: inside;
+} */
 
 .title {
   font-family: 'Montserrat Subrayada', sans-serif;
