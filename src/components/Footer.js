@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = (props) => {
     return (
         <div id='footer'>
-            <a href='https://www.linkedin.com/in/peter-crosta/' target='_blank' rel="noopener noreferrer">
+            <a href='https://www.linkedin.com/in/peter-crosta/' target='_blank' rel='noopener noreferrer'>
                 <img className='footer-image' alt='linkedIn logo' src='https://image.flaticon.com/icons/png/512/61/61109.png' />
             </a>
             <a href='https://github.com/PeterCrosta' target='_blank' rel='noopener noreferrer'>

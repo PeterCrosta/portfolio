@@ -11,7 +11,6 @@ const Projects = () => {
                     <Project 
                     className='single-project-container'
                     key={idx}
-                    idx={idx}
                     name={project.name}
                     link={project.link}
                     imgSource={project.imgSource}

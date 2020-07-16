@@ -2,7 +2,7 @@ import DelveNYC from './DelveNYC-logo.jpg'
 import fennel from './fennel.png'
 import drugCheck from './drugCheck.jpg'
 
-const placeholderAddress = 'https://via.placeholder.com/350x150'
+// const placeholderAddress = 'https://via.placeholder.com/350x150'
 
 const projects = [{
     name: 'Delve.NYC',

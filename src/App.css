@@ -53,6 +53,8 @@ accent #8D3F5C */
 
 #about-me-container {
   display: flex;
+  margin-left: 10%;
+  padding-left: 0%;
 }
 
 #education-experience {
@@ -79,6 +81,10 @@ accent #8D3F5C */
   margin-right: 10%;
 }
 
+#skill-list-container {
+  margin-left: 10%;
+}
+
 .footer-image {
   height: 35px;
   margin-right: 5px;
@@ -88,6 +94,7 @@ accent #8D3F5C */
 .contact-me-container {
   display: flex;
   flex-direction: column;
+  margin-left: 10%;
 }
 
 .about-me-text {
@@ -205,9 +212,13 @@ h1 {
   width: 35px;
 }
 
-.left-align {
+.education-container {
+  margin-left: 10%;
 }
 
+.experience-container {
+  margin-left: 10%;
+}
 /* .right-align {
   text-align: right;
   list-style-position: inside;

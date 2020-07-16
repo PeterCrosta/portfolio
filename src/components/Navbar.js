@@ -14,7 +14,7 @@ function Navbar() {
                 <Link className='nav-item' to='/projects'>Projects</Link>
                 <Link className='nav-item' to='/education-experience'>Education and Experience</Link>
                 <Link className='nav-item' to='/contact-me'>Contact Me</Link>
-                <a href={resumePDF} className='nav-item' target='_blank' rel="noopener noreferrer">Resume</a>
+                <a href={resumePDF} className='nav-item' target='_blank' rel='noopener noreferrer'>Resume</a>
             </nav>
         </div>
     )
