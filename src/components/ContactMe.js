@@ -1,7 +1,7 @@
 import React from 'react'
 // import {Button} from 'reactstrap'
 import emailjs from 'emailjs-com';
-import {templateId, userId} from '../secrets'
+import secrets from '../secrets'
 
 class ContactMe extends React.Component {
     constructor() {
@@ -24,7 +24,7 @@ class ContactMe extends React.Component {
 
     handleSubmit(event) {
         event.preventDefault()
-        emailjs.sendForm('gmail', templateId, event.target, userId)
+        emailjs.sendForm('gmail', secrets.templateId, event.target, secrets.userId)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
