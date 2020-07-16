@@ -7,8 +7,12 @@ const SkillList = (props) => {
             {skills.map((el, idx) => {
                 return (
                     <div className='skill-level' key={idx} >
-                        <span>{el.level}: </span>
-                        {el.skill.map((el2, idx) => <span className='single-skill' key={idx}>{el2}</span>)}
+                        <div className='skill-level-container'>
+                            <div>{el.level}: </div>
+                        </div>
+                        <div className='single-skill-container'>
+                            {el.skill.map((el2, idx) => <div className='single-skill' key={idx}>{el2}</div>)}
+                        </div>
                     </div>
                 )
             })}

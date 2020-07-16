@@ -7,6 +7,7 @@ function Routes() {
         <div id='routes' >
             <Switch>
                 <Route exact path='/' component={AboutMe} />
+                <Route exact path='/portfolio' component={AboutMe} />
                 <Route path='/about-me' component={AboutMe} />
                 <Route path='/education-experience' component={EducationExperience} />
                 <Route path='/projects' component={Projects} />
