@@ -6,10 +6,9 @@ const Projects = () => {
     return (
         <div id='projects'>
             <h1>Projects</h1>
-            <div className='container'>
+            <div className='container' id='projects-container'>
                 {projects.map((project, idx) => (
                     <Project 
-                    className='single-project-container'
                     key={idx}
                     name={project.name}
                     link={project.link}

@@ -31,6 +31,11 @@ accent #8D3F5C */
   font-size: 1.5em;
 }
 
+#projects-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 #banner-name {
   background-color: #002B44;
   font-family: 'Montserrat', sans-serif;
@@ -91,6 +96,10 @@ accent #8D3F5C */
   flex-wrap: wrap;
 }
 
+.container {
+  padding-left: 0px;
+}
+
 .footer-image {
   height: 35px;
   margin-right: 5px;
@@ -118,6 +127,10 @@ accent #8D3F5C */
 .nav-item:hover {
   font-weight: 700;
   color: #F9F7F0;
+}
+
+a:hover {
+  color: #8D3F5C;
 }
 
 .school-image {
@@ -186,6 +199,7 @@ h1 {
   /* border: thick double #002B44; */
   display: flex;
   flex-direction: column;
+  margin-bottom: 1%;
 }
 
 .project-image {

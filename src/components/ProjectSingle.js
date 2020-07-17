@@ -19,7 +19,7 @@ const Project = (props) => {
                 )}
             </div>
             <a href={githubLink} className='github-link' target='_blank' rel='noopener noreferrer'>
-                <img alt='github' className='github-image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSY72H-Wfx7zWrrdzlPHL8o0nbcvs03YMlUgYoqUormf2b1DOy6&usqp=CAU' />
+                <img alt='github' className='github-image' src='https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png' />
             </a>
         </div>
     )
