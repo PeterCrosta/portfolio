@@ -1,12 +1,12 @@
 import React from 'react'
 import EducationSingle from './EducationSingle'
-import ExperienceSingle from './ExperienceSingle'
+// import ExperienceSingle from './ExperienceSingle'
 import educationHistory from '../data/educationHistory'
-import workHistory from '../data/workHistory'
+// import workHistory from '../data/workHistory'
 
-function EducationExperience() {
+function Education() {
     return (
-        <div id='education-experience'>
+        <div id='education'>
             <h1 className='section-header'>Education</h1>
             <div className='education-container'>
                 {educationHistory.map((school,idx)=> (
@@ -22,7 +22,7 @@ function EducationExperience() {
                     />
                 ))}
             </div>
-            <h1 className='section-header'>Experience</h1>
+            {/* <h1 className='section-header'>Experience</h1>
             <div className='experience-container'>
                 {workHistory.map((job, idx) => (
                     <ExperienceSingle
@@ -34,9 +34,9 @@ function EducationExperience() {
                     locatoin={job.location}
                     resp={job.resp} />
                 ))}
-            </div>
+            </div> */}
         </div>
     )
 }
 
-export default EducationExperience
+export default Education

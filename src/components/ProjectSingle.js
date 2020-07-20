@@ -1,14 +1,15 @@
 import React from 'react'
+import deployPNG from '../data/webImage.png'
 
 const Project = (props) => {
     const {name, link, imgSource, description, technologies, githubLink} = props
     return (
         <div className='project double-border'>
-            <a href={link} target='_blank' rel='noopener noreferrer'>
+            <div>
                 <h2 className='title'>{name}</h2>
                 <img alt='placeholder' className='project-image' src={imgSource}/>
                 <p className='description'>{description}</p>
-            </a>
+            </div>
             <h3>Technologies used:</h3>
             <div className='skills'>
                 {technologies.map((tech, idx) => {
@@ -18,9 +19,21 @@ const Project = (props) => {
                 }
                 )}
             </div>
-            <a href={githubLink} className='github-link' target='_blank' rel='noopener noreferrer'>
-                <img alt='github' className='github-image' src='https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png' />
-            </a>
+            <div className='project-link-container'>
+                {link.length > 0 ? (
+                    <div className='link-button'>
+                        <a href={link} className='github-link' target='_blank' rel='noopener noreferrer'>
+                            deployed <img alt='github' className='github-image' src={deployPNG} />
+                        </a>
+                    </div>
+                ) : (<div></div>)}
+                <div className='link-button'>
+                    <a href={githubLink} className='github-link' target='_blank' rel='noopener noreferrer'>
+                        repository
+                        <img alt='github' className='github-image' src='https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png' />
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }
