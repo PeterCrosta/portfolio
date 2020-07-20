@@ -2,14 +2,23 @@ import React from 'react'
 
 
 const EducationSingle = (props) => {
-    const {name, degree, gradDate, description, coursework, image} = props
+    const {name, degree, honors, gpa, gradDate, description, coursework, image} = props
     return (
         <div className='single-education double-border'>
             <img alt={name} src={image} className='school-image' />
             <div className='school-container'>
                 <h3 className='school-name title'>{name}</h3>
                 <div className='degree-grad-container'>
-                    <span className='degree'>{degree}</span> <span className='grad-date'>{gradDate}</span>
+                    <div>
+                        <span className='degree'>{degree}</span>
+                        <span>, {gradDate}</span>
+                        </div>
+                    {honors.length > 0 ? (
+                        <div>
+                            <i>{honors}</i><span> (GPA {gpa})</span>
+
+                        </div>
+                    ): ''}
                 </div>
                 <p className='description'>{description}</p>
                 <div className='subjects-container'>

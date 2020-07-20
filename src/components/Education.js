@@ -1,8 +1,6 @@
 import React from 'react'
 import EducationSingle from './EducationSingle'
-// import ExperienceSingle from './ExperienceSingle'
 import educationHistory from '../data/educationHistory'
-// import workHistory from '../data/workHistory'
 
 function Education() {
     return (
@@ -15,6 +13,8 @@ function Education() {
                     idx={idx}
                     name={school.name}
                     degree={school.degree}
+                    honors={school.honors}
+                    gpa={school.gpa}
                     gradDate={school.gradDate}
                     description={school.description}
                     coursework={school.coursework}
@@ -22,19 +22,6 @@ function Education() {
                     />
                 ))}
             </div>
-            {/* <h1 className='section-header'>Experience</h1>
-            <div className='experience-container'>
-                {workHistory.map((job, idx) => (
-                    <ExperienceSingle
-                    key={idx}
-                    idx={idx}
-                    org={job.org}
-                    title={job.title}
-                    dates={job.dates}
-                    locatoin={job.location}
-                    resp={job.resp} />
-                ))}
-            </div> */}
         </div>
     )
 }

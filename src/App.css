@@ -164,11 +164,12 @@ a:hover {
 
 .degree-grad-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .degree {
   font-weight: 700;
+  margin-bottom: 0px;
 }
 
 .experience-single {
@@ -211,6 +212,7 @@ h1 {
 }
 .description {
   color: #262626;
+  margin-top: 1em;
 }
 
 .title {
