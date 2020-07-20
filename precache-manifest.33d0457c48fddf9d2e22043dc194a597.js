@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cadacaac772818ccc12f46bcf58e604e",
+    "revision": "46577806709f6b722107e7122446df8c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e7c04b7267088b086a2f",
+    "revision": "9186430c29d6911bdbcb",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "359cfc7bfffed976085f",
-    "url": "/portfolio/static/css/main.ed569bd8.chunk.css"
+    "revision": "e8b59114a3bb22017c9a",
+    "url": "/portfolio/static/css/main.9cb6d632.chunk.css"
   },
   {
-    "revision": "e7c04b7267088b086a2f",
-    "url": "/portfolio/static/js/2.844eebaf.chunk.js"
+    "revision": "9186430c29d6911bdbcb",
+    "url": "/portfolio/static/js/2.b0c6cd89.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.844eebaf.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.b0c6cd89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "359cfc7bfffed976085f",
-    "url": "/portfolio/static/js/main.38889c16.chunk.js"
+    "revision": "e8b59114a3bb22017c9a",
+    "url": "/portfolio/static/js/main.90cfe633.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
     "url": "/portfolio/static/js/runtime-main.fb1b3dac.js"
-  },
-  {
-    "revision": "9cc4107250559678ca57515416b70828",
-    "url": "/portfolio/static/media/Crosta Peter Resume 2020 07 06.9cc41072.pdf"
   },
   {
     "revision": "e90be0441cd09fd032cbe12efb1002c4",
@@ -40,12 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NYU.2753a094.gif"
   },
   {
+    "revision": "26ac5c88341e544d623bbeb75175999a",
+    "url": "/portfolio/static/media/Resume 2020 07 06.26ac5c88.pdf"
+  },
+  {
     "revision": "6b1bcf22cc2c8fb2d508371ec551e5c5",
     "url": "/portfolio/static/media/columbia-logo.6b1bcf22.jpg"
   },
   {
-    "revision": "8dc4e9c0eeabd784989249e27cfa6c2a",
-    "url": "/portfolio/static/media/drugCheck.8dc4e9c0.jpg"
+    "revision": "0e9b338713e4e8f0867f4aa46438afd5",
+    "url": "/portfolio/static/media/drugCheck.0e9b3387.jpeg"
   },
   {
     "revision": "69eeeb7b6d83e184b733208258528856",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42558764d5dd72bbe213e96dab4a674b",
     "url": "/portfolio/static/media/fullstack-logo.42558764.png"
+  },
+  {
+    "revision": "a0d8b3aaf52d1bc4d6651d37157831a3",
+    "url": "/portfolio/static/media/webImage.a0d8b3aa.png"
   }
 ]);
