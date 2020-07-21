@@ -9,10 +9,10 @@ function AboutMe() {
                 <img className='head-shot' alt='headshot' src='https://media-exp1.licdn.com/dms/image/C4D03AQG_1qsTnDvwYw/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=4DsAsw63M05gdShk-_AgTRDSr_aHNkh5h4_R2hoMvlU'/>
                 <div className='about-me-text'>
                     <p className='description'>
-                    My name is Peter Crosta. I am a fullstack software engineer and former political campaign manager and neurology researcher. I discovered my passion for software development after teaching myself SQL for a neurology research study. In that role, I quickly learned to love the task of writing a query from the initial whiteboarding of what columns on what tables need to be joined and with what conditionals, all the way down to meticulously writing the code in a text editor before pasting it in the terminal.
+                    My name is Peter Crosta. I am a fullstack software engineer with past lives in political campaign management and neurology research. I recently graduated from and then completed a teaching fellowship with Fullstack Academy, which focuses on the NERDS stack (Node, Express, React/Redux, and database using SQL). I love readable code, learning and leveraging the advantages of a new technology, and sharing my knowledge with my peers. When I’m not coding you will find me taking flying trapeze lessons, cooking for friends, or reading on the couch with my dog.
                     </p>
                     <p className='description'>
-                    That passion for coding led me to enroll in Fullstack Academy, where the formal curriculum is built around the NERDS stack (Node, Express, React/Redux, and database using SQL), but its real value was teaching me self-reliance as a coder, how to code with others, and that any technology is within my grasp.
+                    I am currently open to job opportunities, contract, and freelance work. If  you think I would be a good fit, don’t hesitate to reach out!
                     </p>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Experience = (props) => {
                     org={job.org}
                     title={job.title}
                     dates={job.dates}
-                    locatoin={job.location}
+                    location={job.location}
                     resp={job.resp} />
                 ))}
             </div>

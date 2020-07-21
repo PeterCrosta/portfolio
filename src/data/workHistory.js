@@ -17,7 +17,7 @@ const workHistory = [
         org: "Xandr (formerly AppNexus)",
         title: "Auditor",
         dates: ["Dec 2011", "Aug 2015"],
-        locatoin: "New York, NY",
+        location: "New York, NY",
         resp: ["Ensured advertisements met technical quality standards and were consistent with intended technical attributes", "Flagged advertisements with potentially controversial or ethically dubious content", "Wrote policies to streamline the auditing process"]
     }
 ]

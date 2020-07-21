@@ -2,13 +2,19 @@ import React from 'react'
 import deployPNG from '../data/webImage.png'
 
 const Project = (props) => {
-    const {name, link, imgSource, description, technologies, githubLink} = props
+    const {name, role, link, imgSource, description, technologies, githubLink} = props
     return (
         <div className='project double-border'>
             <div>
                 <h2 className='title'>{name}</h2>
+                <h4 className='role'>{role}</h4>
                 <img alt='placeholder' className='project-image' src={imgSource}/>
-                <p className='description'>{description}</p>
+                
+                {/* <p className='description'>{description}</p> */}
+                <ul className='description'>
+                    {description.map((el, idx) => <li key={idx}>{el}</li>)}
+                </ul>
+
             </div>
             <h3>Technologies used:</h3>
             <div className='skills'>

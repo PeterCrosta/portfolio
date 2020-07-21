@@ -8,7 +8,7 @@ const educationHistory = [{
     honors: '',
     gpa: '',
     gradDate: 'February 2020', 
-    description: 'Fullstack Academy is a software engineering immersive. Junior Phase includes six weeks of lectures, hands-on labs, and pair-programming workshops. Senior Phase is made up of three projects: a group, e-commerce, CRUD app, a solo hack-a-thon, and a group capstone project. For greater detail, see Projects.',
+    description: 'Fullstack Academy is a software engineering immersive. Junior Phase includes six weeks of lectures, hands-on labs, and pair-programming workshops. Senior Phase is made up of three projects: an e-commerce CRUD app, a solo hack-a-thon, and a capstone project.',
     coursework: ['Javascript', 'Node.js', 'Express', 'SQL', 'Sequelize', 'React', 'Redux', 'HTML', 'CSS', 'Algorithms'],
     image: fullstack
 },
@@ -18,7 +18,7 @@ const educationHistory = [{
     honors: 'magna cum laude',
     gpa: '3.6',
     gradDate: 'May 2018',
-    description: 'The Columbia Premedical Postbaccalaureate',
+    description: 'The Columbia Postbac Premed Program allows students to complete the academic prerequisites for admission to medical school.',
     coursework: ['Calculus', 'Chemistry', 'Physics', 'Organic Chemistry', 'Biology', 'Neuropsychology'],
     image: columbia
 },

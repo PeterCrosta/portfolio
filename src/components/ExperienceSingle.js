@@ -10,14 +10,14 @@ const ExperienceSingle = props => {
             <div className='org-job-date-container' >
                 <div className='org-job'>
                     <span className='org title'>{org}</span>
-                    <span className='job-title'>, {title}</span>
+                    <i className='job-title'>, {title}</i>
+                    <span className='location'>, {location}</span>
                 </div>
                 <div className='dates-container'>
                     <span className='dates right-align'> {dates[0]} - {dates[1]}</span>
                 </div>
             </div>
         </div>
-        <div className='location'>{location}</div>
         <ul className='resp-container'>
             {resp.map((el, idx) => (
                 <li key={idx}>{el}</li>

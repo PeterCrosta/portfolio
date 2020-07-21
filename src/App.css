@@ -121,10 +121,15 @@ accent #8D3F5C */
   margin-left: 5px;
 }
 
+.role {
+  font-family: 'Work Sans', 'sans-serif';
+}
+
 .contact-me-container {
   display: flex;
   flex-direction: column;
 }
+
 
 .about-me-text {
   display: flex;
@@ -222,6 +227,7 @@ h1 {
 .title {
   font-family: 'Work Sans', sans-serif;
   color: #262626;
+  margin-bottom: 0px;
 }
 
 .project {
@@ -234,6 +240,7 @@ h1 {
 .project-image {
   max-height: 20%;
   max-width: 60%;
+  border: 1px solid #002B44;
 }
 
 .project-link-container {

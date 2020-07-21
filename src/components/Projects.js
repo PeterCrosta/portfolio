@@ -11,6 +11,7 @@ const Projects = () => {
                     <Project 
                     key={idx}
                     name={project.name}
+                    role={project.role}
                     link={project.link}
                     imgSource={project.imgSource}
                     description={project.description}
