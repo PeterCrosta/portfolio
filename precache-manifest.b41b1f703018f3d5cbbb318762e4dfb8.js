@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "038c63ac3b3bf31c9b7523c29443829b",
+    "revision": "7b34a227086771b3e6c0e89bffc1c979",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e449678b4f585f288401",
+    "revision": "8649a878d3edab6bc4fc",
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "462bff70ec1fb9f6f9be",
-    "url": "/portfolio/static/css/main.d9d74130.chunk.css"
+    "revision": "5be3cb44e5696eecbfe9",
+    "url": "/portfolio/static/css/main.eb65a057.chunk.css"
   },
   {
-    "revision": "e449678b4f585f288401",
-    "url": "/portfolio/static/js/2.f6de5662.chunk.js"
+    "revision": "8649a878d3edab6bc4fc",
+    "url": "/portfolio/static/js/2.280a0769.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.f6de5662.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.280a0769.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "462bff70ec1fb9f6f9be",
-    "url": "/portfolio/static/js/main.0a3a6793.chunk.js"
+    "revision": "5be3cb44e5696eecbfe9",
+    "url": "/portfolio/static/js/main.928d1579.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -30,6 +30,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e90be0441cd09fd032cbe12efb1002c4",
     "url": "/portfolio/static/media/DelveNYC-logo.e90be044.jpg"
+  },
+  {
+    "revision": "5421cf904fe5b158cb65c38b5f6b764d",
+    "url": "/portfolio/static/media/IMG-0008.5421cf90.JPG"
+  },
+  {
+    "revision": "957e14cf162b08a5970b0bd8e3a9030f",
+    "url": "/portfolio/static/media/IMG-0023.957e14cf.JPG"
+  },
+  {
+    "revision": "95bbd02b9c4dc4729333aba91c331941",
+    "url": "/portfolio/static/media/IMG-0032.95bbd02b.JPG"
+  },
+  {
+    "revision": "fd47f3b4e54ed944236ebaa329228b9b",
+    "url": "/portfolio/static/media/IMG-0062.fd47f3b4.JPG"
+  },
+  {
+    "revision": "66fe81463c3d962878cf4dd09ebc7983",
+    "url": "/portfolio/static/media/IMG-1740.66fe8146.jpg"
   },
   {
     "revision": "2753a09489dda73bfc0ab9796431c064",
@@ -54,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42558764d5dd72bbe213e96dab4a674b",
     "url": "/portfolio/static/media/fullstack-logo.42558764.png"
+  },
+  {
+    "revision": "8d7d8601705d34061ca4215bd4328291",
+    "url": "/portfolio/static/media/headshot.8d7d8601.jpeg"
   },
   {
     "revision": "a0d8b3aaf52d1bc4d6651d37157831a3",
