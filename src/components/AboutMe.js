@@ -34,7 +34,7 @@ class AboutMe extends React.Component {
                     <img className='head-shot' alt='headshot' src={headshot}/>
                     <div className='about-me-text'>
                         <p className='description'>
-                        My name is Peter Crosta. I am a full stack software engineer with past lives in political campaign management and neurology research. I recently graduated from and then completed a teaching fellowship with Fullstack Academy, which focuses on the NERDS stack (Node, Express, React/Redux, and database using SQL). I love readable code, learning and leveraging the advantages of a new technology, and sharing my knowledge with my peers. When I’m not coding you will find me taking flying trapeze lessons, cooking for friends, or reading on the couch with my dog, 
+                        My name is Peter Crosta. I am a full stack software engineer with past lives in political campaign management and neurology research. I recently graduated from Fullstack Academy, which focuses on the NERDS stack (Node, Express, React/Redux, and database using SQL). After graduation, I was invited to work with the incoming cohort of students as a teaching fellow. I love readable code, learning and leveraging the advantages of a new technology, and sharing my knowledge with my peers. When I’m not coding you will find me taking flying trapeze lessons, cooking for friends, or reading on the couch with my dog, 
                         <span> </span>
                         <span className='harry-text' onMouseEnter={this.handleHover} onMouseLeave={this.handleOff}>Harry</span>.
                         </p>
