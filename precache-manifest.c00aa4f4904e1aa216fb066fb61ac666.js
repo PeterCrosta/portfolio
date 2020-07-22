@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b34a227086771b3e6c0e89bffc1c979",
+    "revision": "90adc31931353421739d02f2d3c1d0b9",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "5be3cb44e5696eecbfe9",
+    "revision": "9e93e24da8fae00984a9",
     "url": "/portfolio/static/css/main.eb65a057.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.280a0769.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be3cb44e5696eecbfe9",
-    "url": "/portfolio/static/js/main.928d1579.chunk.js"
+    "revision": "9e93e24da8fae00984a9",
+    "url": "/portfolio/static/js/main.e88d71fb.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NYU.2753a094.gif"
   },
   {
-    "revision": "26ac5c88341e544d623bbeb75175999a",
-    "url": "/portfolio/static/media/Resume 2020 07 06.26ac5c88.pdf"
+    "revision": "ce1ff59ba16ca4326234ec47c0b18d4b",
+    "url": "/portfolio/static/media/Resume 2020 07 21.ce1ff59b.pdf"
   },
   {
     "revision": "6b1bcf22cc2c8fb2d508371ec551e5c5",

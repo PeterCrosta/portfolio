@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eb65a057.chunk.css",
-    "main.js": "/portfolio/static/js/main.928d1579.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.928d1579.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e88d71fb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e88d71fb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.280a0769.chunk.js": "/portfolio/static/js/2.280a0769.chunk.js",
     "static/js/2.280a0769.chunk.js.map": "/portfolio/static/js/2.280a0769.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b41b1f703018f3d5cbbb318762e4dfb8.js": "/portfolio/precache-manifest.b41b1f703018f3d5cbbb318762e4dfb8.js",
+    "precache-manifest.c00aa4f4904e1aa216fb066fb61ac666.js": "/portfolio/precache-manifest.c00aa4f4904e1aa216fb066fb61ac666.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.eb65a057.chunk.css.map": "/portfolio/static/css/main.eb65a057.chunk.css.map",
@@ -21,7 +21,7 @@
     "static/media/IMG-0062.JPG": "/portfolio/static/media/IMG-0062.fd47f3b4.JPG",
     "static/media/IMG-1740.jpg": "/portfolio/static/media/IMG-1740.66fe8146.jpg",
     "static/media/NYU.gif": "/portfolio/static/media/NYU.2753a094.gif",
-    "static/media/Resume 2020 07 06.pdf": "/portfolio/static/media/Resume 2020 07 06.26ac5c88.pdf",
+    "static/media/Resume 2020 07 21.pdf": "/portfolio/static/media/Resume 2020 07 21.ce1ff59b.pdf",
     "static/media/columbia-logo.jpg": "/portfolio/static/media/columbia-logo.6b1bcf22.jpg",
     "static/media/drugCheck.jpeg": "/portfolio/static/media/drugCheck.0e9b3387.jpeg",
     "static/media/fennel.png": "/portfolio/static/media/fennel.69eeeb7b.png",
@@ -34,6 +34,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.280a0769.chunk.js",
     "static/css/main.eb65a057.chunk.css",
-    "static/js/main.928d1579.chunk.js"
+    "static/js/main.e88d71fb.chunk.js"
   ]
 }
