@@ -20,6 +20,10 @@ dark #002B44
 light #F9F7F0
 accent #8D3F5C */
 
+* {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F9F7F0;
+}
 
 #nav-bar {
   display: flex;
@@ -203,9 +207,6 @@ a:hover {
   margin-top: 20px;
 }
 
-* {
-  background-color: #F9F7F0;
-}
 .nav-item-container {
   display: flex;
   justify-content: space-around;
