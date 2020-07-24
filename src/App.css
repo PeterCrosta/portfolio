@@ -4,16 +4,8 @@
 ::after pseudo tag 
 :hover pseudo class */
 
-/* original color palate
-light #F9F7F0
-dark #262626
-accent #3C533B */
 
-/* font-family: 'Work Sans', sans-serif;
-font-family: 'Work Sans', sans-serif; */
-
-/* NEW FONT 
-font-family: 'Work Sans', sans-serif; */
+/*font-family: 'Work Sans', sans-serif; */
 
 /* color palate
 dark #002B44
@@ -30,8 +22,6 @@ accent #8D3F5C */
   flex-direction: column;
   background-color: #002B44;
   color: #F9F7F0;
-  /* justify-content: space-around; */
-  /* vertical-align: top; */
   align-items: center;
   width: 100%;
   min-height: 50px;
@@ -47,7 +37,6 @@ accent #8D3F5C */
 
 #banner-name {
   background-color: #002B44;
-  font-family: 'Work Sans', sans-serif;
 }
 #banner {
   background-color: #002B44;
@@ -68,7 +57,6 @@ accent #8D3F5C */
 
 #about-me-container {
   display: flex;
-  /* margin-left: 10%; */
   padding-left: 0%;
 }
 
@@ -195,13 +183,6 @@ a:hover {
 .subjects {
   font-weight: 700;
 }
-/* .subjects-container {
-  margin-right: 10px;
-} */
-
-/* .grad-date {
-  margin-right: 10px;
-} */
 
 .section-header {
   margin-top: 20px;
@@ -210,7 +191,6 @@ a:hover {
 .nav-item-container {
   display: flex;
   justify-content: space-around;
-  font-family: 'Work Sans', sans-serif;
   color: #F9F7F0;
   background-color: #002B44;
   max-width: 95%;
@@ -222,22 +202,17 @@ a:hover {
   padding: 0px 10px 0px 10px;
 }
 
-h1 {
-  font-family: 'Work Sans', sans-serif;
-}
 .description {
   color: #262626;
   margin-top: 1em;
 }
 
 .title {
-  font-family: 'Work Sans', sans-serif;
   color: #262626;
   margin-bottom: 0px;
 }
 
 .project {
-  /* border: thick double #002B44; */
   display: flex;
   flex-direction: column;
   margin-bottom: 1%;
@@ -261,17 +236,14 @@ h1 {
 }
 
 .single-skill {
-  /* border: 1px solid #8D3F5C; */
   padding: 2px 5px 2px 5px;
   margin: 5px 5px 5px 5px;
   border-radius: 10px;
   background-color: #002B44;
   color: #F9F7F0;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .skill-level {
-  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   display: flex;
   flex-direction: column;
@@ -294,7 +266,6 @@ h1 {
 
 .github-link {
   color: #262626;
-  font-family: 'Work Sans', sans-serif;
   padding-left: 5px;
   font-weight: 700;
 }
@@ -306,23 +277,6 @@ h1 {
   margin-right: 5px;
   border-radius: 10px;
   box-shadow: 1px 1px 1px #8D3F5C;
-  /* color: #262626; */
-}
-
-/* .education-container {
-  margin-left: 10%;
-} */
-
-/* .experience-container {
-  margin-left: 10%;
-} */
-/* .right-align {
-  text-align: right;
-  list-style-position: inside;
-} */
-
-.title {
-  font-family: 'Work Sans', sans-serif;
 }
 
 .post-contact-text {
@@ -333,56 +287,15 @@ h1 {
 .label {
   margin-bottom: 0px;
 }
+
 textarea {
   background-color: white;
 }
+
 input {
   background-color: white;
 }
+
 button {
   background-color: silver;
 }
-/* 
-
-button {
-  background-color: #3C533B;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #F9F7F0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #002B44;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
