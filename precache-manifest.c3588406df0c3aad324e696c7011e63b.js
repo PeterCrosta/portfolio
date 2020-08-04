@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b09f15bb37c20516872f89a718425004",
+    "revision": "59dc66bc71e6bfec4e56321a93563086",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "1c0137a8c95f562be590",
+    "revision": "5ac6630a80aabc7b56d4",
     "url": "/portfolio/static/css/main.cccc8a33.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.280a0769.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c0137a8c95f562be590",
-    "url": "/portfolio/static/js/main.a2e3489d.chunk.js"
+    "revision": "5ac6630a80aabc7b56d4",
+    "url": "/portfolio/static/js/main.9177ba29.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NYU.2753a094.gif"
   },
   {
-    "revision": "ce1ff59ba16ca4326234ec47c0b18d4b",
-    "url": "/portfolio/static/media/Resume 2020 07 21.ce1ff59b.pdf"
+    "revision": "d94d6e4e1a4453b1a816338539934c8c",
+    "url": "/portfolio/static/media/Peter Crosta Resume 2020 07 28.d94d6e4e.pdf"
   },
   {
     "revision": "6b1bcf22cc2c8fb2d508371ec551e5c5",
