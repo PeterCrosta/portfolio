@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import resumePDF from '/Users/petercrosta/Desktop/personal-work/portfolio/src/data/Resume 2020 07 21.pdf'
+import resumePDF from '/Users/petercrosta/Desktop/personal-work/portfolio/src/data/Peter Crosta Resume 2020 07 28.pdf'
 import logo from '/Users/petercrosta/Desktop/personal-work/portfolio/src/data/peter logo off white.png'
 
 
