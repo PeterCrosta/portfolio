@@ -55,6 +55,7 @@ accent #8D3F5C */
   margin-right: 10%;
   animation-name: slidein;
   animation-duration: .7s;
+  animation-iteration-count: 3;
 }
 
 #about-me-container {
