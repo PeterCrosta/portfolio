@@ -53,6 +53,8 @@ accent #8D3F5C */
   margin-top: 50px;
   margin-left: 10%;
   margin-right: 10%;
+  animation-name: slidein;
+  animation-duration: .7s;
 }
 
 #about-me-container {
@@ -298,4 +300,13 @@ input {
 
 button {
   background-color: silver;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
